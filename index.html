@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Metaetiquetas -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Arturo Morales" />
+
+		<!-- Titulo del sitio -->
+		<title>FAQ accordion card</title>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+
+		<!-- Estilos CSS -->
+		<link rel="stylesheet" href="css/style.min.css" />
+	</head>
+
+	<body>
+		<div class="container main-content py-5 px-4">
+			<section class="row faq-card shadow-lg mt-5">
+				<div class="col-12 col-md-6 faq-img text-center">
+					<img id="faq-bg-img" class="img-fluid" />
+					<img id="woman-faq-img" class="woman-img" />
+				</div>
+
+				<div class="col-12 col-md-6 faq-content p-4">
+					<h1 id="faqTitle" class="mb-4 fw-bold">FAQ</h1>
+
+					<a href="javascript:;" onclick="faq1()" id="faq1-link" class="active">How many team members can I invite?</a>
+					<span class="mt-2 active" id="faq1">
+						You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium
+						plan.
+					</span>
+
+					<hr />
+
+					<a href="">What is the maximum file upload size?</a>
+					<hr />
+
+					<a href="">How do I reset my password?</a>
+					<hr />
+
+					<a href="">Can I cancel my subscription?</a>
+					<hr />
+
+					<a href=""> Do you provide additional support? </a>
+					<hr />
+				</div>
+			</section>
+		</div>
+
+		<script src="js/app.js"></script>
+	</body>
+</html>
